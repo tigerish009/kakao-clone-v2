@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Friends | kakao Clone</title>
     <script src="https://kit.fontawesome.com/93cbfadcf7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <div class="status-bar">
@@ -18,7 +19,7 @@
             <i class="fas fa-wifi"></i>
             <i class="fas fa-volume-mute"></i>
             <i class="fas fa-battery-three-quarters"></i>
-            <span class="status0bar__battery-level">80%</span>
+            <span class="status-bar__battery-level">80%</span>
 
         </div>
     </div>
@@ -42,23 +43,23 @@
     </header>
     <main class="friends">
         <header class="friends__header">
-            <div class="friends__fried friend friend--lg">
+            <div class="friends__friend friend">
                 <div class="friend__column">
-                    <img src="images/avatar1.jpeg" class="g-avatar freind__avatar" />
+                    <img src="images/avatar1.jpeg" class="g-avatar friend__avatar" />
                     <span class="friend__name">
                     천봉수
                     </span>
-                    <span class="friedn__status">
+                    <span class="friend__status">
                     웹사이트 개발중~!
                     </span>
                 </div>
             </div>
         </header>
-        <div class="friends__plus-friend">
+        <div class="friends__plus">
             <h5 class="friends__plus-title">Plus friend</h5>
-            <div class="friends__fried friend friend">
+            <div class="friends__friend friend friend">
                 <div class="friend__column">
-                    <img src="images/avatar1.jpeg" class="g-avatar freind__avatar" />
+                    <img src="images/friendsgem.jpeg" class="friend__avatar" />
                     <span class="friend__name">
                     Plus Friend
                     </span>
@@ -67,15 +68,17 @@
         </div>
         <ul class="friends__list">
             <h5 class="friends__title">Friends 14</h5>
-            <li class="friends__friend friend friend">
-                <div class="friend_column">
-                    <img src="images/avatar1.jpeg" class="g-avatar freind__avatar" />
+            <li class="friends__friend friend friend--lg">
+                <div class="friend__column">
+                    <img src="images/avatar2.jpeg" class="friend__avatar" />
+                    <div class="content">
                     <span class="friend__name">
                         박선화
                     </span>
-                    <span class="friedn__status">
-                        힐링이 필요해!!
+                    <span class="friend__status">
+                        오늘도 행복한 하루!!
                     </span>
+                    </div>
                 </div>
                 <div class="friend__column">
                     <div class="friend__now-listening">
@@ -92,6 +95,7 @@
                 <i class="fas fa-user"></i>
             </a></li>
             <li class="nav__list-item"><a href="index.html" class="nav__list-link">
+                <div class="nav__badge">8</div>
                 <i class="far fa-comments"></i>
             </a></li>
             <li class="nav__list-item"><a href="find.html" class="nav__list-link">

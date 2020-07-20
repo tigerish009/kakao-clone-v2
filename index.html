@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chats | kakao Clone</title>
     <script src="https://kit.fontawesome.com/93cbfadcf7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <div class="status-bar">
@@ -18,7 +19,7 @@
             <i class="fas fa-wifi"></i>
             <i class="fas fa-volume-mute"></i>
             <i class="fas fa-battery-three-quarters"></i>
-            <span class="status0bar__battery-level">80%</span>
+            <span class="status-bar__battery-level">80%</span>
 
         </div>
     </div>
@@ -44,20 +45,26 @@
         <ul class="chats__list">
             <li class="chats__chat chat">
                 <a href="chat.html">
-                <div class="chat__column">
-                    <img class="chat__avatar g-avatar" src="images/avatar1.jpeg" alt="avatar">
-                    <div class="chat__content">
-                        <span class="chat__username">
-                            박선화
-                        </span>
-                        <span class="chat__preview">굿모닝❤️</span>
+                    <div class="chats__chat friend friend--lg">
+                        <div class="friend__column">
+                            <img src="images/avatar2.jpeg" class="m-avatar friend__avatar" />
+                            <div class="friend__content">
+                            <span class="friend__name">
+                                박선화
+                            </span>
+                            <span class="friend__bottom-text">
+                                힐링이 필요해!!
+                            </span>
+                            </div>
+                        </div>
+                        <div class="friend__column">
+                            <div class="friend__now-listening">
+                                <span class="chat__timestamp">
+                                    March 8
+                                </span>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="chat__column">
-                    <span class="chat__timestamp">
-                        Yesterday
-                    </span>
-                </div>
                 </a>
             </li>
         </ul>
@@ -68,6 +75,7 @@
                 <i class="far fa-user"></i>
             </a></li>
             <li class="nav__list-item"><a href="index.html" class="nav__list-link">
+                <div class="nav__badge">8</div>
                 <i class="fas fa-comments"></i>
             </a></li>
             <li class="nav__list-item"><a href="find.html" class="nav__list-link">
