@@ -46,3 +46,14 @@
     align-items: center;
     cursor : pointer;
 }
+.friend_column {
+    width : 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.friend_column i {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
